@@ -24,3 +24,8 @@ def cube(num):
     
 result = cube(3)
 print(result)
+
+# positional arguments: order of argument matters, 1st argument = value of 1st parameter etc.
+# keyword arguments: position does not matter, parameter_name = value
+# when mix, use positional arguments before keyword arguments
+sayhi(age = 50, name = "Tom")

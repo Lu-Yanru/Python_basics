@@ -57,6 +57,12 @@ print(phrase[0])
 print(phrase.index("Acad"))
 # replace piece of string with another
 print(phrase.replace("Giraffe", "Elefant"))
+# formatted strings for dynamically generate texts
+# a string prefixed with f, {filled by variables}
+first = "John"
+last = "Smith"
+message = f"{first} [{last}] is a coder"
+print(message)
 
 # numbers
 # no quotation marks needed
